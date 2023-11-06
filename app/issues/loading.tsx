@@ -30,7 +30,7 @@ const LoadingIssuesPage = () => {
         </TableHeader>
         <TableBody>
           {issues.map((issue) => (
-            <Table.Row key={issue.id}>
+            <Table.Row key={issue}>
               <Table.Cell>
                 <Skeleton />
                 <div className="block sm:hidden">
