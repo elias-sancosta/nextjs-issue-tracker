@@ -16,7 +16,7 @@ const IssueDetailPage = async ({ params }: Props) => {
 
   if (!issue) notFound();
 
-  await delay(600);
+  await delay(400);
 
   return (
     <Grid columns={{ initial: '1', md: '2' }} gap="5">
